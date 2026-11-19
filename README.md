@@ -162,3 +162,11 @@ pip install -r requirements.txt
 Rồi mở [`CHECKPOINTS.md`](CHECKPOINTS.md) và làm lần lượt Checkpoint 1 → 5.
 
 Nộp theo [`SUBMISSION.md`](SUBMISSION.md) · Quy định: [`RULES.md`](RULES.md).
+
+## Thông tin bài nộp
+
+- Họ tên: Bùi Quang Huy
+- MSSV: 2A202603469
+- Lớp: K5-L3A
+- Chạy từ gốc repo: \`python src/main.py --part 2\`, sau đó \`--part 3\` va \`--part 4\`.
+- Tự kiểm: \`python -m pytest tests -q\` và \`python scripts/grade.py --submission-dir . --out outputs/grade_report.json\`.
